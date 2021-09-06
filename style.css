@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+    padding-top: 10%;
+    font-family: monospace;
+    text-align: center;
+}
+.congrat {
+    color: navy;
+    margin-bottom: 2em;
+}
+.container {
+    border: 1px solid gray;
+    width: 20em;
+    text-align: center;
+    margin: 0 auto;
+    height: 400px;
+    padding: 1em;
+    border-radius: 1em;
+    position: relative;
+}
+.container h2 {
+    margin: .5em 0em;
+    font-size: 40px;
+    font-weight: bold;
+}
+.container button {
+    display: inline-block;
+    width: 50%;
+    margin: 1em 0em;
+    padding: .5em;
+    background: green;
+    color: #fff;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+}
+#revert-count {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 2%;
+    left: 20%;
+}
+.container p {
+    font-weight: bold;
+    margin: 1.5em 0em;
+}
